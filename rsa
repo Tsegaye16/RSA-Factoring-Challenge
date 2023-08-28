@@ -1,12 +1,14 @@
 #!/usr/bin/python3
 
-# library to get arguments
+''' library to get arguments'''
 import sys
 
 
-# fn unpack number factorial
+'''fn unpack number factorial'''
 def fc():
-    
+    '''
+    function that search file to convert number and format n=p*q
+    '''
     try:
         revfile = sys.argv[1]
         with open(revfile) as f:
@@ -27,5 +29,5 @@ def fc():
         pass
 
 
-# autostart
+'''auto-start'''
 fc()
